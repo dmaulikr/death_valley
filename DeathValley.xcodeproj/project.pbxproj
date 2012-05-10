@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8807FD88155B17A000FC813F /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 8807FD84155B17A000FC813F /* gameover.png */; };
+		8807FD89155B17A000FC813F /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 8807FD85155B17A000FC813F /* home.png */; };
+		8807FD8A155B17A000FC813F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 8807FD86155B17A000FC813F /* play.png */; };
+		8807FD8B155B17A000FC813F /* playagain.png in Resources */ = {isa = PBXBuildFile; fileRef = 8807FD87155B17A000FC813F /* playagain.png */; };
+		8850F7631559BCD50063C587 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850F7621559BCD50063C587 /* UIKit.framework */; };
+		8850F7651559BCD50063C587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850F7641559BCD50063C587 /* Foundation.framework */; };
+		8850F7671559BCD50063C587 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8850F7661559BCD50063C587 /* CoreGraphics.framework */; };
+		8850F76D1559BCD50063C587 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8850F76B1559BCD50063C587 /* InfoPlist.strings */; };
+		8850F76F1559BCD50063C587 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850F76E1559BCD50063C587 /* main.m */; };
+		8850F7731559BCD50063C587 /* DeathValleyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850F7721559BCD50063C587 /* DeathValleyAppDelegate.m */; };
+		8850F7761559BCD50063C587 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8850F7741559BCD50063C587 /* MainWindow.xib */; };
+		8850F7791559BCD50063C587 /* DeathValleyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850F7781559BCD50063C587 /* DeathValleyViewController.m */; };
+		8850F77C1559BCD50063C587 /* DeathValleyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8850F77A1559BCD50063C587 /* DeathValleyViewController.xib */; };
+		8850F7841559BCFF0063C587 /* ShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850F7831559BCFF0063C587 /* ShipView.m */; };
+		8850F7861559BE3A0063C587 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8850F7851559BE3A0063C587 /* ship.png */; };
+		8850F78D1559BF4A0063C587 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 8850F78B1559BF4A0063C587 /* left.png */; };
+		8850F78E1559BF4A0063C587 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 8850F78C1559BF4A0063C587 /* right.png */; };
+		8850F7911559FDDE0063C587 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850F7901559FDDE0063C587 /* MapView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8807FD84155B17A000FC813F /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		8807FD85155B17A000FC813F /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		8807FD86155B17A000FC813F /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		8807FD87155B17A000FC813F /* playagain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playagain.png; sourceTree = "<group>"; };
+		8850F75E1559BCD50063C587 /* DeathValley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeathValley.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8850F7621559BCD50063C587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8850F7641559BCD50063C587 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8850F7661559BCD50063C587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8850F76A1559BCD50063C587 /* DeathValley-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeathValley-Info.plist"; sourceTree = "<group>"; };
+		8850F76C1559BCD50063C587 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8850F76E1559BCD50063C587 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8850F7701559BCD50063C587 /* DeathValley-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeathValley-Prefix.pch"; sourceTree = "<group>"; };
+		8850F7711559BCD50063C587 /* DeathValleyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeathValleyAppDelegate.h; sourceTree = "<group>"; };
+		8850F7721559BCD50063C587 /* DeathValleyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeathValleyAppDelegate.m; sourceTree = "<group>"; };
+		8850F7751559BCD50063C587 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8850F7771559BCD50063C587 /* DeathValleyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeathValleyViewController.h; sourceTree = "<group>"; };
+		8850F7781559BCD50063C587 /* DeathValleyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeathValleyViewController.m; sourceTree = "<group>"; };
+		8850F77B1559BCD50063C587 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DeathValleyViewController.xib; sourceTree = "<group>"; };
+		8850F7821559BCFF0063C587 /* ShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipView.h; sourceTree = "<group>"; };
+		8850F7831559BCFF0063C587 /* ShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipView.m; sourceTree = "<group>"; };
+		8850F7851559BE3A0063C587 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+		8850F78B1559BF4A0063C587 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		8850F78C1559BF4A0063C587 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		8850F78F1559FDDE0063C587 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		8850F7901559FDDE0063C587 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8850F75B1559BCD50063C587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8850F7631559BCD50063C587 /* UIKit.framework in Frameworks */,
+				8850F7651559BCD50063C587 /* Foundation.framework in Frameworks */,
+				8850F7671559BCD50063C587 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8850F7531559BCD50063C587 = {
+			isa = PBXGroup;
+			children = (
+				8850F7681559BCD50063C587 /* DeathValley */,
+				8850F7611559BCD50063C587 /* Frameworks */,
+				8850F75F1559BCD50063C587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8850F75F1559BCD50063C587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8850F75E1559BCD50063C587 /* DeathValley.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8850F7611559BCD50063C587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8850F7621559BCD50063C587 /* UIKit.framework */,
+				8850F7641559BCD50063C587 /* Foundation.framework */,
+				8850F7661559BCD50063C587 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8850F7681559BCD50063C587 /* DeathValley */ = {
+			isa = PBXGroup;
+			children = (
+				8850F7711559BCD50063C587 /* DeathValleyAppDelegate.h */,
+				8850F7721559BCD50063C587 /* DeathValleyAppDelegate.m */,
+				8850F7741559BCD50063C587 /* MainWindow.xib */,
+				8850F7771559BCD50063C587 /* DeathValleyViewController.h */,
+				8850F7781559BCD50063C587 /* DeathValleyViewController.m */,
+				8850F77A1559BCD50063C587 /* DeathValleyViewController.xib */,
+				8850F7821559BCFF0063C587 /* ShipView.h */,
+				8850F7831559BCFF0063C587 /* ShipView.m */,
+				8850F78F1559FDDE0063C587 /* MapView.h */,
+				8850F7901559FDDE0063C587 /* MapView.m */,
+				8850F7691559BCD50063C587 /* Supporting Files */,
+			);
+			path = DeathValley;
+			sourceTree = "<group>";
+		};
+		8850F7691559BCD50063C587 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8807FD84155B17A000FC813F /* gameover.png */,
+				8807FD85155B17A000FC813F /* home.png */,
+				8807FD86155B17A000FC813F /* play.png */,
+				8807FD87155B17A000FC813F /* playagain.png */,
+				8850F78B1559BF4A0063C587 /* left.png */,
+				8850F78C1559BF4A0063C587 /* right.png */,
+				8850F7851559BE3A0063C587 /* ship.png */,
+				8850F76A1559BCD50063C587 /* DeathValley-Info.plist */,
+				8850F76B1559BCD50063C587 /* InfoPlist.strings */,
+				8850F76E1559BCD50063C587 /* main.m */,
+				8850F7701559BCD50063C587 /* DeathValley-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8850F75D1559BCD50063C587 /* DeathValley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8850F77F1559BCD50063C587 /* Build configuration list for PBXNativeTarget "DeathValley" */;
+			buildPhases = (
+				8850F75A1559BCD50063C587 /* Sources */,
+				8850F75B1559BCD50063C587 /* Frameworks */,
+				8850F75C1559BCD50063C587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeathValley;
+			productName = DeathValley;
+			productReference = 8850F75E1559BCD50063C587 /* DeathValley.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8850F7551559BCD50063C587 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8850F7581559BCD50063C587 /* Build configuration list for PBXProject "DeathValley" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8850F7531559BCD50063C587;
+			productRefGroup = 8850F75F1559BCD50063C587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8850F75D1559BCD50063C587 /* DeathValley */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8850F75C1559BCD50063C587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8850F76D1559BCD50063C587 /* InfoPlist.strings in Resources */,
+				8850F7761559BCD50063C587 /* MainWindow.xib in Resources */,
+				8850F77C1559BCD50063C587 /* DeathValleyViewController.xib in Resources */,
+				8850F7861559BE3A0063C587 /* ship.png in Resources */,
+				8850F78D1559BF4A0063C587 /* left.png in Resources */,
+				8850F78E1559BF4A0063C587 /* right.png in Resources */,
+				8807FD88155B17A000FC813F /* gameover.png in Resources */,
+				8807FD89155B17A000FC813F /* home.png in Resources */,
+				8807FD8A155B17A000FC813F /* play.png in Resources */,
+				8807FD8B155B17A000FC813F /* playagain.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8850F75A1559BCD50063C587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8850F76F1559BCD50063C587 /* main.m in Sources */,
+				8850F7731559BCD50063C587 /* DeathValleyAppDelegate.m in Sources */,
+				8850F7791559BCD50063C587 /* DeathValleyViewController.m in Sources */,
+				8850F7841559BCFF0063C587 /* ShipView.m in Sources */,
+				8850F7911559FDDE0063C587 /* MapView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8850F76B1559BCD50063C587 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8850F76C1559BCD50063C587 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8850F7741559BCD50063C587 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8850F7751559BCD50063C587 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8850F77A1559BCD50063C587 /* DeathValleyViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8850F77B1559BCD50063C587 /* en */,
+			);
+			name = DeathValleyViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8850F77D1559BCD50063C587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8850F77E1559BCD50063C587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8850F7801559BCD50063C587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeathValley/DeathValley-Prefix.pch";
+				INFOPLIST_FILE = "DeathValley/DeathValley-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8850F7811559BCD50063C587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeathValley/DeathValley-Prefix.pch";
+				INFOPLIST_FILE = "DeathValley/DeathValley-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8850F7581559BCD50063C587 /* Build configuration list for PBXProject "DeathValley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8850F77D1559BCD50063C587 /* Debug */,
+				8850F77E1559BCD50063C587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8850F77F1559BCD50063C587 /* Build configuration list for PBXNativeTarget "DeathValley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8850F7801559BCD50063C587 /* Debug */,
+				8850F7811559BCD50063C587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8850F7551559BCD50063C587 /* Project object */;
+}
